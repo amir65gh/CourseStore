@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CourseStore.Core.Contract\CourseStore.Core.Contract.csproj" />
+    <ProjectReference Include="..\CourseStore.Core.Domain\CourseStore.Core.Domain.csproj" />
+    <ProjectReference Include="..\CourseStore.Infrastructures.DataAccess\CourseStore.Infrastructures.DataAccess.csproj" />
+    <ProjectReference Include="..\CourseStore.Services.ApplicationServices\CourseStore.Services.ApplicationServices.csproj" />
+  </ItemGroup>
+
+
+</Project>
